@@ -52,7 +52,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     $0.clientKey = dict_Credentials["clientKey"] as! String
                     $0.server =  dict_Credentials["server"] as! String
                 }
-                print("ClientKey",dict_Credentials["clientKey"] as! String,"/","Server",dict_Credentials["server"] as! String)
                 Parse.initialize(with: configuration)
         }
         
