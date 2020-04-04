@@ -49,10 +49,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 // use swift dictionary as normal
                 let configuration = ParseClientConfiguration {
                     $0.applicationId = "RettApp"
-                    $0.clientKey = dict_Credentials["clientKey"]?.string ?? ""
-                    $0.server =  dict_Credentials["server"]?.string ?? ""
+                    $0.clientKey = dict_Credentials["clientKey"] as! String
+                    $0.server =  dict_Credentials["server"] as! String
                 }
-                print("ClientKey",dict_Credentials["clientKey"]?.string ?? "","/","Server",dict_Credentials["server"]?.string ?? "")
+                print("ClientKey",dict_Credentials["clientKey"] as! String,"/","Server",dict_Credentials["server"] as! String)
                 Parse.initialize(with: configuration)
         }
         

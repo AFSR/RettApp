@@ -16,7 +16,7 @@
 		2F286CFC2438A23800AFA8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F286CFA2438A23800AFA8B2 /* LaunchScreen.storyboard */; };
 		2F286D072438A23800AFA8B2 /* RettAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286D062438A23800AFA8B2 /* RettAppTests.swift */; };
 		2F286D122438A23800AFA8B2 /* RettAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286D112438A23800AFA8B2 /* RettAppUITests.swift */; };
-		2F286D282438C66700AFA8B2 /* AFSR_Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F286D272438C66700AFA8B2 /* AFSR_Credentials.plist */; };
+		2F286D2A2438CB8500AFA8B2 /* AFSR_Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F286D292438CB8500AFA8B2 /* AFSR_Credentials.plist */; };
 		F88E8A6E30BD4ED6BC8D83F1 /* Pods_RettApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D678EDD4724D9C0876B78C1 /* Pods_RettApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +58,7 @@
 		2F286D242438A3C800AFA8B2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2F286D252438A3C800AFA8B2 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2F286D262438ADC900AFA8B2 /* RettApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RettApp.entitlements; sourceTree = "<group>"; };
-		2F286D272438C66700AFA8B2 /* AFSR_Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AFSR_Credentials.plist; sourceTree = "<group>"; };
+		2F286D292438CB8500AFA8B2 /* AFSR_Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AFSR_Credentials.plist; sourceTree = "<group>"; };
 		300C432BACF92A6698A08443 /* Pods-RettApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RettApp.release.xcconfig"; path = "Target Support Files/Pods-RettApp/Pods-RettApp.release.xcconfig"; sourceTree = "<group>"; };
 		346CDE41261B9F8B5D46D228 /* Pods-RettApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RettApp.debug.xcconfig"; path = "Target Support Files/Pods-RettApp/Pods-RettApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 				2F286CFD2438A23800AFA8B2 /* Info.plist */,
 				2F286CF02438A23300AFA8B2 /* RettApp.xcdatamodeld */,
 				2F286CF72438A23800AFA8B2 /* Preview Content */,
-				2F286D272438C66700AFA8B2 /* AFSR_Credentials.plist */,
+				2F286D292438CB8500AFA8B2 /* AFSR_Credentials.plist */,
 			);
 			path = RettApp;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F286CFC2438A23800AFA8B2 /* LaunchScreen.storyboard in Resources */,
-				2F286D282438C66700AFA8B2 /* AFSR_Credentials.plist in Resources */,
+				2F286D2A2438CB8500AFA8B2 /* AFSR_Credentials.plist in Resources */,
 				2F286CF92438A23800AFA8B2 /* Preview Assets.xcassets in Resources */,
 				2F286CF62438A23800AFA8B2 /* Assets.xcassets in Resources */,
 			);
