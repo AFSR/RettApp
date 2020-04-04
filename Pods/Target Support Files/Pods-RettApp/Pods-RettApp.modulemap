@@ -1,0 +1,6 @@
+framework module Pods_RettApp {
+  umbrella header "Pods-RettApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

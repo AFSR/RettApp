@@ -16,6 +16,7 @@
 		2F286CFC2438A23800AFA8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F286CFA2438A23800AFA8B2 /* LaunchScreen.storyboard */; };
 		2F286D072438A23800AFA8B2 /* RettAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286D062438A23800AFA8B2 /* RettAppTests.swift */; };
 		2F286D122438A23800AFA8B2 /* RettAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286D112438A23800AFA8B2 /* RettAppUITests.swift */; };
+		F88E8A6E30BD4ED6BC8D83F1 /* Pods_RettApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D678EDD4724D9C0876B78C1 /* Pods_RettApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D678EDD4724D9C0876B78C1 /* Pods_RettApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RettApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F286CE92438A23300AFA8B2 /* RettApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RettApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F286CEC2438A23300AFA8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F286CEE2438A23300AFA8B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		2F286D242438A3C800AFA8B2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2F286D252438A3C800AFA8B2 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2F286D262438ADC900AFA8B2 /* RettApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RettApp.entitlements; sourceTree = "<group>"; };
+		300C432BACF92A6698A08443 /* Pods-RettApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RettApp.release.xcconfig"; path = "Target Support Files/Pods-RettApp/Pods-RettApp.release.xcconfig"; sourceTree = "<group>"; };
+		346CDE41261B9F8B5D46D228 /* Pods-RettApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RettApp.debug.xcconfig"; path = "Target Support Files/Pods-RettApp/Pods-RettApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88E8A6E30BD4ED6BC8D83F1 /* Pods_RettApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +95,8 @@
 				2F286D052438A23800AFA8B2 /* RettAppTests */,
 				2F286D102438A23800AFA8B2 /* RettAppUITests */,
 				2F286CEA2438A23300AFA8B2 /* Products */,
+				6C1241547B2C0298D74717D1 /* Pods */,
+				BE019B0BED4AE4EB5792534A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +161,24 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
+		6C1241547B2C0298D74717D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				346CDE41261B9F8B5D46D228 /* Pods-RettApp.debug.xcconfig */,
+				300C432BACF92A6698A08443 /* Pods-RettApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE019B0BED4AE4EB5792534A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D678EDD4724D9C0876B78C1 /* Pods_RettApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F286D162438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettApp" */;
 			buildPhases = (
+				E9CDC249E665E74A1AA0C64D /* [CP] Check Pods Manifest.lock */,
 				2F286CE52438A23300AFA8B2 /* Sources */,
 				2F286CE62438A23300AFA8B2 /* Frameworks */,
 				2F286CE72438A23300AFA8B2 /* Resources */,
+				96447260A04F52AC0CC3AE58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,6 +309,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96447260A04F52AC0CC3AE58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RettApp/Pods-RettApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RettApp/Pods-RettApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RettApp/Pods-RettApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CDC249E665E74A1AA0C64D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RettApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F286CE52438A23300AFA8B2 /* Sources */ = {
@@ -471,6 +540,7 @@
 		};
 		2F286D172438A23800AFA8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346CDE41261B9F8B5D46D228 /* Pods-RettApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RettApp/RettApp.entitlements;
@@ -493,6 +563,7 @@
 		};
 		2F286D182438A23800AFA8B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300C432BACF92A6698A08443 /* Pods-RettApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RettApp/RettApp.entitlements;
