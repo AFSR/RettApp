@@ -52,7 +52,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     $0.clientKey = dict_Credentials["clientKey"] as! String
                     $0.server =  dict_Credentials["server"] as! String
                 }
-                Parse.initialize(with: configuration)
+              
+            
+            Parse.initialize(with: configuration)
         }
         
         let gameScore = PFObject(className:"GameScore")
