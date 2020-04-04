@@ -8,11 +8,13 @@
 
 import UIKit
 import CoreData
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    // MARK: alreadyParticipation Init
+    
     var alreadyParticipating:Bool {
         get{
             return UserDefaults.standard.bool(forKey: "UserHasConsentedKey")
@@ -23,6 +25,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
+    func getPlist(withName name: String) -> [String]?
+    {
+        if  let path = Bundle.main.path(forResource: name, ofType: "plist"),
+            let xml = FileManager.default.contents(atPath: path)
+        {
+            return (try? PropertyListSerialization.propertyList(from: xml, options: .mutableContainersAndLeaves, format: nil)) as? [String]
+        }
+
+        return nil
+    }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -33,6 +45,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print("UUID de l'appareil: ", UserDefaults.standard.value(forKey: "Device_uuid") as! String )
         
+        if let path = Bundle.main.path(forResource: "AFSR_Credentials", ofType: "plist"), let dict_Credentials = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
+                // use swift dictionary as normal
+                let configuration = ParseClientConfiguration {
+                    $0.applicationId = "RettApp"
+                    $0.clientKey = dict_Credentials["clientKey"]?.string ?? ""
+                    $0.server =  dict_Credentials["server"]?.string ?? ""
+                }
+                print("ClientKey",dict_Credentials["clientKey"]?.string ?? "","/","Server",dict_Credentials["server"]?.string ?? "")
+                Parse.initialize(with: configuration)
+        }
+        
+                
         return true
     }
 
