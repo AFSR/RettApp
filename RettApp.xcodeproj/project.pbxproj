@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F286CED2438A23300AFA8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286CEC2438A23300AFA8B2 /* AppDelegate.swift */; };
+		2F286CEF2438A23300AFA8B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286CEE2438A23300AFA8B2 /* SceneDelegate.swift */; };
+		2F286CF22438A23300AFA8B2 /* RettApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F286CF02438A23300AFA8B2 /* RettApp.xcdatamodeld */; };
+		2F286CF42438A23300AFA8B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286CF32438A23300AFA8B2 /* ContentView.swift */; };
+		2F286CF62438A23800AFA8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F286CF52438A23800AFA8B2 /* Assets.xcassets */; };
+		2F286CF92438A23800AFA8B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F286CF82438A23800AFA8B2 /* Preview Assets.xcassets */; };
+		2F286CFC2438A23800AFA8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F286CFA2438A23800AFA8B2 /* LaunchScreen.storyboard */; };
+		2F286D072438A23800AFA8B2 /* RettAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286D062438A23800AFA8B2 /* RettAppTests.swift */; };
+		2F286D122438A23800AFA8B2 /* RettAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286D112438A23800AFA8B2 /* RettAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F286D032438A23800AFA8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F286CE12438A23300AFA8B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F286CE82438A23300AFA8B2;
+			remoteInfo = RettApp;
+		};
+		2F286D0E2438A23800AFA8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F286CE12438A23300AFA8B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F286CE82438A23300AFA8B2;
+			remoteInfo = RettApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F286CE92438A23300AFA8B2 /* RettApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RettApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F286CEC2438A23300AFA8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F286CEE2438A23300AFA8B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F286CF12438A23300AFA8B2 /* RettApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RettApp.xcdatamodel; sourceTree = "<group>"; };
+		2F286CF32438A23300AFA8B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F286CF52438A23800AFA8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F286CF82438A23800AFA8B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F286CFB2438A23800AFA8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F286CFD2438A23800AFA8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F286D022438A23800AFA8B2 /* RettAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RettAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F286D062438A23800AFA8B2 /* RettAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RettAppTests.swift; sourceTree = "<group>"; };
+		2F286D082438A23800AFA8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F286D0D2438A23800AFA8B2 /* RettAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RettAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F286D112438A23800AFA8B2 /* RettAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RettAppUITests.swift; sourceTree = "<group>"; };
+		2F286D132438A23800AFA8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F286D222438A3C800AFA8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F286D242438A3C800AFA8B2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2F286D252438A3C800AFA8B2 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2F286D262438ADC900AFA8B2 /* RettApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RettApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F286CE62438A23300AFA8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F286CFF2438A23800AFA8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F286D0A2438A23800AFA8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F286CE02438A23300AFA8B2 = {
+			isa = PBXGroup;
+			children = (
+				2F286D202438A3C800AFA8B2 /* LaunchScreen */,
+				2F286CEB2438A23300AFA8B2 /* RettApp */,
+				2F286D052438A23800AFA8B2 /* RettAppTests */,
+				2F286D102438A23800AFA8B2 /* RettAppUITests */,
+				2F286CEA2438A23300AFA8B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F286CEA2438A23300AFA8B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F286CE92438A23300AFA8B2 /* RettApp.app */,
+				2F286D022438A23800AFA8B2 /* RettAppTests.xctest */,
+				2F286D0D2438A23800AFA8B2 /* RettAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F286CEB2438A23300AFA8B2 /* RettApp */ = {
+			isa = PBXGroup;
+			children = (
+				2F286D262438ADC900AFA8B2 /* RettApp.entitlements */,
+				2F286CEC2438A23300AFA8B2 /* AppDelegate.swift */,
+				2F286CEE2438A23300AFA8B2 /* SceneDelegate.swift */,
+				2F286CF32438A23300AFA8B2 /* ContentView.swift */,
+				2F286CF52438A23800AFA8B2 /* Assets.xcassets */,
+				2F286CFA2438A23800AFA8B2 /* LaunchScreen.storyboard */,
+				2F286CFD2438A23800AFA8B2 /* Info.plist */,
+				2F286CF02438A23300AFA8B2 /* RettApp.xcdatamodeld */,
+				2F286CF72438A23800AFA8B2 /* Preview Content */,
+			);
+			path = RettApp;
+			sourceTree = "<group>";
+		};
+		2F286CF72438A23800AFA8B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F286CF82438A23800AFA8B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F286D052438A23800AFA8B2 /* RettAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F286D062438A23800AFA8B2 /* RettAppTests.swift */,
+				2F286D082438A23800AFA8B2 /* Info.plist */,
+			);
+			path = RettAppTests;
+			sourceTree = "<group>";
+		};
+		2F286D102438A23800AFA8B2 /* RettAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F286D112438A23800AFA8B2 /* RettAppUITests.swift */,
+				2F286D132438A23800AFA8B2 /* Info.plist */,
+			);
+			path = RettAppUITests;
+			sourceTree = "<group>";
+		};
+		2F286D202438A3C800AFA8B2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F286D212438A3C800AFA8B2 /* LaunchScreen.xib */,
+				2F286D232438A3C800AFA8B2 /* LaunchScreen.strings */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F286CE82438A23300AFA8B2 /* RettApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F286D162438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettApp" */;
+			buildPhases = (
+				2F286CE52438A23300AFA8B2 /* Sources */,
+				2F286CE62438A23300AFA8B2 /* Frameworks */,
+				2F286CE72438A23300AFA8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RettApp;
+			productName = RettApp;
+			productReference = 2F286CE92438A23300AFA8B2 /* RettApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F286D012438A23800AFA8B2 /* RettAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F286D192438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettAppTests" */;
+			buildPhases = (
+				2F286CFE2438A23800AFA8B2 /* Sources */,
+				2F286CFF2438A23800AFA8B2 /* Frameworks */,
+				2F286D002438A23800AFA8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F286D042438A23800AFA8B2 /* PBXTargetDependency */,
+			);
+			name = RettAppTests;
+			productName = RettAppTests;
+			productReference = 2F286D022438A23800AFA8B2 /* RettAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F286D0C2438A23800AFA8B2 /* RettAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F286D1C2438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettAppUITests" */;
+			buildPhases = (
+				2F286D092438A23800AFA8B2 /* Sources */,
+				2F286D0A2438A23800AFA8B2 /* Frameworks */,
+				2F286D0B2438A23800AFA8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F286D0F2438A23800AFA8B2 /* PBXTargetDependency */,
+			);
+			name = RettAppUITests;
+			productName = RettAppUITests;
+			productReference = 2F286D0D2438A23800AFA8B2 /* RettAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F286CE12438A23300AFA8B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = AFSR;
+				TargetAttributes = {
+					2F286CE82438A23300AFA8B2 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					2F286D012438A23800AFA8B2 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2F286CE82438A23300AFA8B2;
+					};
+					2F286D0C2438A23800AFA8B2 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2F286CE82438A23300AFA8B2;
+					};
+				};
+			};
+			buildConfigurationList = 2F286CE42438A23300AFA8B2 /* Build configuration list for PBXProject "RettApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				pt,
+			);
+			mainGroup = 2F286CE02438A23300AFA8B2;
+			productRefGroup = 2F286CEA2438A23300AFA8B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F286CE82438A23300AFA8B2 /* RettApp */,
+				2F286D012438A23800AFA8B2 /* RettAppTests */,
+				2F286D0C2438A23800AFA8B2 /* RettAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F286CE72438A23300AFA8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F286CFC2438A23800AFA8B2 /* LaunchScreen.storyboard in Resources */,
+				2F286CF92438A23800AFA8B2 /* Preview Assets.xcassets in Resources */,
+				2F286CF62438A23800AFA8B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F286D002438A23800AFA8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F286D0B2438A23800AFA8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F286CE52438A23300AFA8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F286CED2438A23300AFA8B2 /* AppDelegate.swift in Sources */,
+				2F286CF22438A23300AFA8B2 /* RettApp.xcdatamodeld in Sources */,
+				2F286CF42438A23300AFA8B2 /* ContentView.swift in Sources */,
+				2F286CEF2438A23300AFA8B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F286CFE2438A23800AFA8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F286D072438A23800AFA8B2 /* RettAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F286D092438A23800AFA8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F286D122438A23800AFA8B2 /* RettAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F286D042438A23800AFA8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F286CE82438A23300AFA8B2 /* RettApp */;
+			targetProxy = 2F286D032438A23800AFA8B2 /* PBXContainerItemProxy */;
+		};
+		2F286D0F2438A23800AFA8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F286CE82438A23300AFA8B2 /* RettApp */;
+			targetProxy = 2F286D0E2438A23800AFA8B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F286CFA2438A23800AFA8B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F286CFB2438A23800AFA8B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2F286D212438A3C800AFA8B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F286D222438A3C800AFA8B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2F286D232438A3C800AFA8B2 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F286D242438A3C800AFA8B2 /* fr */,
+				2F286D252438A3C800AFA8B2 /* pt */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F286D142438A23800AFA8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F286D152438A23800AFA8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F286D172438A23800AFA8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RettApp/RettApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RettApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WG7ACRM2BU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RettApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = afsr.RettApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F286D182438A23800AFA8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RettApp/RettApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RettApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WG7ACRM2BU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RettApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = afsr.RettApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F286D1A2438A23800AFA8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG7ACRM2BU;
+				INFOPLIST_FILE = RettAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = afsr.RettAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RettApp.app/RettApp";
+			};
+			name = Debug;
+		};
+		2F286D1B2438A23800AFA8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG7ACRM2BU;
+				INFOPLIST_FILE = RettAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = afsr.RettAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RettApp.app/RettApp";
+			};
+			name = Release;
+		};
+		2F286D1D2438A23800AFA8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG7ACRM2BU;
+				INFOPLIST_FILE = RettAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = afsr.RettAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RettApp;
+			};
+			name = Debug;
+		};
+		2F286D1E2438A23800AFA8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG7ACRM2BU;
+				INFOPLIST_FILE = RettAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = afsr.RettAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RettApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F286CE42438A23300AFA8B2 /* Build configuration list for PBXProject "RettApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F286D142438A23800AFA8B2 /* Debug */,
+				2F286D152438A23800AFA8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F286D162438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F286D172438A23800AFA8B2 /* Debug */,
+				2F286D182438A23800AFA8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F286D192438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F286D1A2438A23800AFA8B2 /* Debug */,
+				2F286D1B2438A23800AFA8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F286D1C2438A23800AFA8B2 /* Build configuration list for PBXNativeTarget "RettAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F286D1D2438A23800AFA8B2 /* Debug */,
+				2F286D1E2438A23800AFA8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F286CF02438A23300AFA8B2 /* RettApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F286CF12438A23300AFA8B2 /* RettApp.xcdatamodel */,
+			);
+			currentVersion = 2F286CF12438A23300AFA8B2 /* RettApp.xcdatamodel */;
+			path = RettApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F286CE12438A23300AFA8B2 /* Project object */;
+}
