@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let path = Bundle.main.path(forResource: "AFSR_Credentials", ofType: "plist"), let dict_Credentials = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
                 // use swift dictionary as normal
                 let configuration = ParseClientConfiguration {
-                    $0.applicationId = "RettApp"
+                    $0.applicationId = dict_Credentials["appId"] as! String
                     $0.clientKey = dict_Credentials["clientKey"] as! String
                     $0.server =  dict_Credentials["server"] as! String
                 }
@@ -56,6 +56,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 Parse.initialize(with: configuration)
         }
         
+        let gameScore = PFObject(className:"GameScore")
+        gameScore["score"] = 1337
+        gameScore["playerName"] = "Sean Plott"
+        gameScore["cheatMode"] = false
+        gameScore.saveInBackground { (succeeded, error)  in
+            if (succeeded) {
+                // The object has been saved.
+                print("Success!")
+            } else {
+                // There was a problem, check error.description
+                print("Failed!")
+            }
+        }
                 
         return true
     }
